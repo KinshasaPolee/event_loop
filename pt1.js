@@ -4,7 +4,7 @@ var counter = 0;
 function incrementAndCall() {
     counter++;
 
-    if(counter >= 1500) {
+    if (counter >= 1500) {
 
         console.log('Error condition reached!');
         return;
